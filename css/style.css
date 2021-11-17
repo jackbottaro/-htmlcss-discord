@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial, sans-serif";
 }
 
 /* Utilities */
@@ -15,6 +15,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
 
 .w-20 {
@@ -84,10 +85,12 @@ a {
   margin-right: 30px;
 }
 
-.content .btn-l a {
-}
-
 /* Button small */
+
+.btn-f {
+  padding: 10px 15px;
+  border-radius: 20px;
+}
 
 .btn-s a {
   padding: 10px 15px;
@@ -241,6 +244,10 @@ footer .footer-content {
   color: white;
 }
 
+#footer-arrow {
+  line-height: 21px;
+}
+
 .footer-content ul {
   list-style: none;
   text-align: left;
@@ -250,4 +257,14 @@ footer .footer-content {
 .title-list {
   color: #7289da;
   font-weight: bold;
+}
+
+hr {
+  margin: 40px 0;
+  color: #7289da;
+}
+
+.footer-display a {
+  position: absolute;
+  right: 0;
 }
