@@ -60,6 +60,12 @@ a {
   clear: both;
 }
 
+.background {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
 /* Buttom */
 
 .btn-white {
@@ -125,6 +131,10 @@ ul {
 
 ul li a {
   color: white;
+}
+
+.main-header img{
+  line-height: 70px;
 }
 
 /* Spotlight */
@@ -267,4 +277,10 @@ hr {
 .footer-display a {
   position: absolute;
   right: 0;
+}
+
+/* Waves */
+
+.waves {
+fill="red"
 }
